@@ -10,6 +10,9 @@
                 required: false,
                 input_html: { autocomplete: "current-password" } %>
     <%= f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
+    <%#add f.input for FIRST_NAME LAST_NAME USERNAME %>
+    <%#add f.input for AGE %>
+    <%#add f.input for GENDER (improve DB schema for gender addinf only MALE, FEMLAE) %>
   </div>
 
   <div class="form-actions">
