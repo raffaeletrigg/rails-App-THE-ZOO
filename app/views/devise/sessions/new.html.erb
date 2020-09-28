@@ -1,9 +1,9 @@
-<div class="container">
-  <div class="row justify-content-center border">
+<div class="container border border-primary">
+  <div class="row justify-content-center border border-primary">
     <h2 class="mt-2">Zoo. Log in</h2>
   </div>
-  <div class="row justify-content-center border">
-    <div class="col-10 col-sm-10 col-md-8 col-lg-8 mt-2 mb-2 border">
+  <div class="row justify-content-center border border-primary">
+    <div class="col-10 col-sm-10 col-md-8 col-lg-8 mt-2 mb-2 border border-primary">
       <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
         <div class="form-inputs">
           <%= f.input :email,
@@ -20,8 +20,9 @@
           <%= f.button :submit, "Log in", class: "btn btn-primary" %>
         </div>
       <% end %>
-
+      <div class="mt-4">
       <%= render "devise/shared/links" %>
+      </div>
     </div>
   </div>
 </div>
