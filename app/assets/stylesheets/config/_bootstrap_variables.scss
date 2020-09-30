@@ -11,16 +11,16 @@ $body-bg:                 $white-zoo;
 $font-size-base: 1rem;
 
 // Colors
-// $body-color: $gray;
+ // $body-color: $gray;
+ // $primary:    $blue;
+ // $success:    $green;
+ // $info:       $yellow;
 $body-color: $black-zoo;
-// $primary:    $blue;
-$primary:    $yellow-zoo;
-// $success:    $green;
+$primary:    $red-zoo;
 $success:    $green-zoo;
-// $info:       $yellow;
 $info:       $light-blue-zoo;
 $danger:     $red-zoo;
-$warning:    $red-zoo;
+$warning:    $yellow-zoo;
 
 // Buttons & inputs' radius
 $border-radius:    2px;
@@ -28,3 +28,4 @@ $border-radius-lg: 2px;
 $border-radius-sm: 2px;
 
 // Override other variables below!
+$secondary:    $yellow-zoo;
