@@ -11,7 +11,28 @@
     font-weight: bold;
     text-align: left;
   }
+
+  p {
+    color: $white-zoo;
+  }
+
+  .banner-box-title-and-tag {
+  // justify-content-left
+  // margin top and bottom 5px or 5%
+  margin-top: 2%;
+  }
+
 }
+
+.banner-btn-both {
+  // space in bewteen in px or in %
+  // margin top and bottom 5px or 5%
+  margin-top: 25%;
+
+}
+
+
+
 
 
 // Option1 (auto = > width)
