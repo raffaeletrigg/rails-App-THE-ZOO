@@ -3,31 +3,36 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 80vh;
   width: 100%;
 
   h1 {
     color: $primary;
+    font-size: 100px;
     font-weight: bold;
     text-align: left;
+    //background-color: $white-zoo;
+  }
+
+  h3 {
+    color: $white-zoo;
   }
 
   p {
     color: $white-zoo;
   }
+}
 
-  .banner-box-title-and-tag {
+.banner-box-title-and-tag {
   // justify-content-left
   // margin top and bottom 5px or 5%
   margin-top: 2%;
   }
 
-}
-
 .banner-btn-both {
   // space in bewteen in px or in %
   // margin top and bottom 5px or 5%
-  margin-top: 25%;
+  margin-top: 15%;
 
 }
 
