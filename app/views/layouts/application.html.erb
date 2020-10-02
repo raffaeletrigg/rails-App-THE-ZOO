@@ -12,8 +12,12 @@
   </head>
 
   <body>
-    <%= render 'shared/navbar' %>
-    <%= render 'shared/flashes' %>
+    <!-- the CONTAINER around the NAVBAR and FLASHES has been added by me based on AIRBNB Inspiration -->
+    <!-- the default NAVBAR and FLASHED are usually inside the body -->
+    <div class="container">
+      <%= render 'shared/navbar' %>
+      <%= render 'shared/flashes' %>
+    </div>
 
     <%= yield %>
   </body>
