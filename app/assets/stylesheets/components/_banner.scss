@@ -1,9 +1,22 @@
 .banner {
-  background-image: asset-url('img-creative/animal.flamingo-SUMMER.jpg');
+  background-image: asset-url('img-creative/animal.flamingo-SUMMER-3.jpg');
   background-repeat: no-repeat;
-  background-size: contain, cover;
-  background-position: top;
+  background-size: cover;
+  background-position: center;
   height: 100vh;
   width: 100%;
-
 }
+
+
+// Option1 (auto = > width)
+// background-image: asset-url('img-creative/animal.flamingo-SUMMER.jpg');
+// background-repeat: no-repeat;
+// background-size: auto;
+
+// Option2 (2 value first is width and second is height)
+// background-image: asset-url('img-creative/animal.flamingo-SUMMER.jpg');
+// background-repeat: no-repeat;
+// background-size: 1500px 2000px;
+
+// Options Other
+// background-position: center;
