@@ -1,0 +1,34 @@
+<h1>Find me in app/views/pages/about.html.erb 🚀</h1>
+
+<p>NOW is <%= Time.now %></p>
+
+<!-- CONTROLLER INSTANCE VARIABLES -->
+<!-- read more here -->
+<!-- https://kitt.lewagon.com/camps/432/lectures/05-Rails%2F01-Rails-intro#/0/8/1 -->
+<!-- CIS like in this case members can be put directly in the view -->
+<!-- as in the array you see here -->
+<!-- or put inside the related CONTROLLER -->
+<!-- in this case check the pages_controller.rb in the section "about" -->
+<!-- in this case you should add @members = [ 'raffaele', 'michele', 'serena', 'nicoloo', 'antonella'] -->
+
+<%members = [ 'raffaele', 'michele', 'serena', 'nicoloo', 'antonella'] %>
+
+<h2> meet our team</h2>
+<ol>
+  <% members.each do |member| %>
+    <li><%= member.capitalize %></li>
+  <% end %>
+</ol>
+
+<!-- to learn how to LINK TO SPECIFIC PATH visit this page-->
+<!-- https://kitt.lewagon.com/camps/432/lectures/05-Rails%2F01-Rails-intro#/0/9/3 -->
+<!-- to learn how to link in a block as we do in the logo image in the navbar -->
+<!-- https://stackoverflow.com/questions/14986559/rails-undefined-method-stringify-keys -->
+
+<%= link_to "Homepage", root_path %>
+
+
+<form action="/about" method="get">
+  <input type="text" name="member" value="<%= params[:member] %>" placeholder="Who are you looking for?">
+  <input type="submit">
+</form>
