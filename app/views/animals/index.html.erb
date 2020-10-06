@@ -1,0 +1,12 @@
+<H1> All the Zoo animals</H1>
+
+<%#animals = [ 'baccalao', 'panda', 'delfino', 'coccodrillo', 'giraffa'] %>
+
+<ul>
+  <% @animals.each do |animal| %>
+    <li><%= animal.capitalize %></li>
+  <% end %>
+</ul>
+
+
+
