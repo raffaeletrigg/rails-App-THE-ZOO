@@ -1,1 +1,87 @@
-_card-animal.scss
+//adding media queries
+
+//@media (min-width:900px){.card-dynamic {height: 50%}}
+//@media screen and (min-width: 500px) and (max-width: 899px) {
+//  .card-dynamic {
+//  height: 30%
+//  }
+//}
+//@media (max-width:499px){.card-dynamic {height: 50%}}
+
+// adding scss class to cards
+
+.card-animal-style {
+  /* margin-bottom: 100px; */
+  padding: 0px;
+  border-radius: 5px;
+  background: white;
+  border:4px solid #e5e0cc;
+  position: relative;
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+  }
+
+  .card-text {
+    flex-grow: 1;
+    padding: 10px;
+  }
+}
+
+.card-animal-img{
+    overflow: hidden;
+    /* min-height: 200px; */
+    flex-shrink: 0;
+    width: 100%;
+    height: 300px;
+  img{
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.card-animal-body{
+  height: 200px;
+}
+
+
+.link-style {
+
+  a {
+  color: black;
+  text-decoration: none;
+
+  }
+}
+
+.card-animal-style-hover:hover{
+  margin-bottom: 5px;
+  border: 2px solid #F8B400;
+  background-color: #004445;
+  a {
+    text-decoration: none;
+  }
+  p {
+  color: white;
+  }
+}
+
+.icon-status {
+  background-color: #F8B400;
+  padding: 10px;
+  width: 50%;
+  border-radius: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+}
+
+.jp-overlay {
+ position: absolute;
+}
+
+.color-green {
+ color: #b8dbd8;
+}
