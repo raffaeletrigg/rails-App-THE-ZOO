@@ -13,9 +13,9 @@
 .card-animal-style {
   /* margin-bottom: 100px; */
   padding: 0px;
-  border-radius: 5px;
+  border-radius: 2px;
   background: white;
-  border:4px solid #e5e0cc;
+  border:10px solid #F8B400;
   position: relative;
   .card-body {
     display: flex;
@@ -56,17 +56,18 @@
   }
 }
 
-.card-animal-style-hover:hover{
-  margin-bottom: 5px;
-  border: 2px solid #F8B400;
-  background-color: #004445;
-  a {
-    text-decoration: none;
-  }
-  p {
-  color: white;
-  }
-}
+//the HOVER seems not responding to editing. Now, we comment it out and come back at it later.
+//.card-animal-style-hover:hover{
+//  margin-bottom: 5px;
+//  border: 2px solid #F8B400;
+//  background-color: #004445;
+//  a {
+//    text-decoration: none;
+//  }
+//  p {
+//  color: white;
+// }
+//}
 
 .icon-status {
   background-color: #F8B400;
